@@ -1,0 +1,46 @@
+.intro {
+  padding-inline: 148px;
+}
+
+.intro__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: #ffffff;
+  width: 830px;
+  margin: 92px 0 40px 0;
+}
+
+.intro__citation {
+  font-family: "Inter", Arial, sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  width: 738px;
+  margin: 0;
+}
+
+.intro__citation-author {
+  font-family: "Inter", Arial, sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  width: 732px;
+  text-align: end;
+  margin: 0;
+  padding: 10px 0 32px 0;
+}
+
+.into__content {
+  font-family: "Inter", Arial, sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  width: 722px;
+  margin: 0;
+  padding-bottom: 132px;
+}
