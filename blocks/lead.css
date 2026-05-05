@@ -1,10 +1,10 @@
-.main {
+.lead {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.main__title {
+.lead__title {
   font-family: "Inter", Arial, sans-serif;
   color: #ffffff;
   font-weight: 900;
@@ -17,7 +17,7 @@
   letter-spacing: 0%;
 }
 
-.main__subtitle {
+.lead__subtitle {
   font-family: "Inter", Arial, sans-serif;
   font-weight: 400;
   font-size: 30px;
@@ -30,7 +30,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .main__title {
+  .lead__title {
     margin: 90px 0 25px 0;
     font-size: 75px;
     line-height: 79px;
@@ -38,14 +38,14 @@
 }
 
 @media screen and (max-width: 320px) {
-  .main__title {
+  .lead__title {
     margin: 50px 0 16px 0;
     font-size: 40px;
     max-width: 228px;
     line-height: 44px;
   }
 
-  .main__subtitle {
+  .lead__subtitle {
     max-width: 288px;
     font-size: 16px;
     line-height: 20px;
