@@ -7,3 +7,17 @@
   height: 615px;
   padding-top: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .image {
+    padding: 0;
+  }
+
+  .image__content {
+    height: 480px;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}
