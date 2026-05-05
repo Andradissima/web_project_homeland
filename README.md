@@ -51,7 +51,7 @@ Algumas ideias para evolução do projeto:
 
 ⸻
 
-Página publicada: [Adicionar URL aqui]
+Página publicada: https://andradissima.github.io/web_project_homeland/
 
 ⸻
 
