@@ -40,7 +40,7 @@
   width: 100%;
   max-width: 722px;
   margin: 0 0 0 100px;
-  padding-bottom: 132px;
+  padding-bottom: clamp(38px, 8vw, 118px);
 }
 
 @media screen and (max-width: 768px) {
