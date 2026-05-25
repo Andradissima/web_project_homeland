@@ -10,8 +10,12 @@
   height: auto;
   display: grid;
   grid-template-columns: 460px 524px;
+  grid-template-rows: 300px 180px 180px 100px;
+  column-gap: 40px;
+  grid-template-areas: "title artists" "image content" "image content" "button content";
 
-  grid-template-areas: "title artists" "image content" "button content";
+  align-items: start;
+
   padding-bottom: clamp(50px, 8vw, 80px);
 }
 
@@ -50,6 +54,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  align-self: center;
   grid-area: button;
   box-shadow: 5px 5px 10px #00000080;
   background-image: linear-gradient(#0278fe, #003a7b);
@@ -73,12 +78,14 @@
   max-width: 315px;
   margin: 0;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .places__artists {
   margin: 0;
   padding: 161px 0 23px;
   grid-area: artists;
+  align-self: end;
 }
 
 .places__heading {
@@ -90,7 +97,6 @@
   letter-spacing: 12%;
   margin: 0;
   color: #aaaaaa;
-  padding-left: clamp(15px, 2.5vw, 60px);
 }
 
 .places__artist {
@@ -102,7 +108,6 @@
   max-width: 456px;
   margin: 0;
   color: #ffffff;
-  padding-left: clamp(15px, 2.5vw, 60px);
 }
 
 .places__text {
@@ -114,7 +119,7 @@
   margin: 0;
   padding-top: 25px;
   color: #ffffff;
-  padding-left: clamp(15px, 2.5vw, 60px);
+
   grid-area: content;
 }
 
@@ -126,6 +131,8 @@
   .places__item {
     max-width: 720px;
     grid-template-columns: 355px 340px;
+    grid-template-rows: 150px 200px 150px 100px;
+    column-gap: 13px;
   }
 
   .places__title {
@@ -151,9 +158,13 @@
   .places__text {
     font-size: 16px;
   }
+
+  .places__button {
+    align-self: end;
+  }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .places {
     margin: 0;
   }
@@ -161,7 +172,8 @@
   .places__item {
     max-width: 320px;
     grid-template-columns: 320px;
-    grid-template-areas: "title" "artists" "image" "content" "button";
+    grid-template-areas: "title" "artists" "image" "content" "content" "button";
+    grid-template-rows: 70px 165px 320px 250px 280px 50px;
   }
 
   .places__title {
