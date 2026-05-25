@@ -1,21 +1,59 @@
 .places {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   margin: 0 148px 0;
 }
 
-.places__item {
+.places__item-Criccieth {
   max-width: 984px;
   width: 100%;
   height: auto;
   display: grid;
   grid-template-columns: 460px 524px;
-  grid-template-rows: 300px 180px 180px 100px;
+  grid-template-rows: 300px 180px 310px 80px;
   column-gap: 40px;
   grid-template-areas: "title artists" "image content" "image content" "button content";
-
   align-items: start;
+  padding-bottom: clamp(50px, 8vw, 80px);
+}
 
+.places__item-Berea {
+  max-width: 984px;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 460px 524px;
+  grid-template-rows: 150px 215px 280px 80px;
+  column-gap: 40px;
+  grid-template-areas: "title artists" "image content" "image content" "button content";
+  align-items: start;
+  padding-bottom: clamp(50px, 8vw, 80px);
+}
+
+.places__item-Muramvya {
+  max-width: 984px;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 460px 524px;
+  grid-template-rows: 200px 150px 150px 180px 100px;
+  column-gap: 40px;
+  grid-template-areas: "title artists" "image content" "image content" "image content" "button content";
+  align-items: start;
+  padding-bottom: clamp(50px, 8vw, 80px);
+}
+
+.places__item-Brasilia {
+  max-width: 984px;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 460px 524px;
+  grid-template-rows: 200px 250px 240px 100px;
+  column-gap: 40px;
+  grid-template-areas: "title artists" "image content" "image content" "button content";
+  align-items: start;
   padding-bottom: clamp(50px, 8vw, 80px);
 }
 
@@ -35,6 +73,7 @@
 .places__image {
   max-width: 460px;
   max-height: 460px;
+  height: auto;
   width: 100%;
   margin: 0 0 48px 0;
   box-shadow: 10px 10px 25px #00000080;
@@ -128,10 +167,31 @@
     margin: 0 24px 0;
   }
 
-  .places__item {
+  .places__item-Criccieth {
     max-width: 720px;
     grid-template-columns: 355px 340px;
-    grid-template-rows: 150px 200px 150px 100px;
+    grid-template-rows: 150px 200px 150px 85px 20px;
+    column-gap: 13px;
+  }
+
+  .places__item-Berea {
+    max-width: 720px;
+    grid-template-columns: 355px 340px;
+    grid-template-rows: 100px 250px 90px 100px;
+    column-gap: 13px;
+  }
+
+  .places__item-Muramvya {
+    max-width: 720px;
+    grid-template-columns: 355px 340px;
+    grid-template-rows: 140px 180px 180px 80px 120px;
+    column-gap: 13px;
+  }
+
+  .places__item-Brasilia {
+    max-width: 720px;
+    grid-template-columns: 355px 340px;
+    grid-template-rows: 100px 250px 100px 80px 70px;
     column-gap: 13px;
   }
 
@@ -169,11 +229,32 @@
     margin: 0;
   }
 
-  .places__item {
+  .places__item-Criccieth {
     max-width: 320px;
     grid-template-columns: 320px;
     grid-template-areas: "title" "artists" "image" "content" "content" "button";
     grid-template-rows: 70px 165px 320px 250px 280px 50px;
+  }
+
+  .places__item-Berea {
+    max-width: 320px;
+    grid-template-columns: 320px;
+    grid-template-areas: "title" "artists" "image" "content" "content" "button";
+    grid-template-rows: 50px 120px 320px 250px 210px 50px;
+  }
+
+  .places__item-Muramvya {
+    max-width: 320px;
+    grid-template-columns: 320px;
+    grid-template-areas: "title" "artists" "image" "content" "content" "button";
+    grid-template-rows: 70px 140px 320px 203px 480px 50px;
+  }
+
+  .places__item-Brasilia {
+    max-width: 320px;
+    grid-template-columns: 320px;
+    grid-template-areas: "title" "artists" "image" "content" "content" "button";
+    grid-template-rows: 40px 120px 320px 280px 300px 50px;
   }
 
   .places__title {
