@@ -8,7 +8,6 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-  width: 100%;
   max-width: 830px;
   margin: 92px 0 40px 100px;
 }
@@ -17,7 +16,6 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  width: 100%;
   max-width: 738px;
   margin: 0 0 0 100px;
 }
@@ -37,7 +35,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.63;
-  width: 100%;
   max-width: 722px;
   margin: 0 0 0 100px;
   padding-bottom: clamp(38px, 8vw, 118px);
